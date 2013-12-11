@@ -1,0 +1,48 @@
+body {
+    background-color: #93B0B5;
+    font-family: Courier;
+    text-align: center;
+}
+#answer {
+    float: right;
+}
+form {
+    margin: 0 auto;
+    width: 250px;
+    padding: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    text-align: right;
+}
+input, textarea {
+    width: 25px;
+    border: 1px solid #A993B5;
+}
+#header {
+    background-color: #939FB5;
+    min-height: 30px;
+    min-width: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#main {
+    background-color: #9893B5;
+    min-height: 30px;
+    min-width: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    float: left;
+    padding: 20px;
+}
+#footer {
+    background-color: #939FB5;
+    min-height: 30px;
+    min-width: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    clear: both;
+}

@@ -3,9 +3,34 @@
 <head>
 	<title>Hello World</title>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
-	<script type="text/javascript" src="script.js"/>
 </head>
 <body>
+    <div id="header">
+         <h2>MultiplyBot Version 1.0</h2>
 
+    </div>
+    <div id="main">
+        <form>
+            <div>
+                <label for="x">insert numbers:</label>
+                <br />
+                <input type="text" id="x" />
+                <label for="y">*</label>
+                <input type="text" id="y" />
+            </div>
+            <div class="button">
+                <button>I do nothing!</button>
+                <button type="submit">Calculate?</button>
+            </div>
+        </form>
+    </div>
+    <div id="answer"></div>
+    <div id="footer">
+        <p>I made this myself!</p>
+    </div>
+	<!--scripts below-->
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"/>
+ <script src="jquery.js"/>
+ <script type="text/javascript" src="script.js"/>
 </body>
 </html>
