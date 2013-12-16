@@ -3,6 +3,9 @@ body {
     font-family: Courier;
     text-align: center;
 }
+div {
+	max-width=500px;
+}
 #answer {
     float: right;
 }
@@ -24,15 +27,11 @@ input, textarea {
 }
 #header {
     background-color: #939FB5;
-    min-height: 30px;
-    min-width: 30px;
     border: 1px solid black;
     border-radius: 8px;
 }
 #main {
     background-color: #9893B5;
-    min-height: 30px;
-    min-width: 30px;
     border: 1px solid black;
     border-radius: 8px;
     float: left;
@@ -40,8 +39,6 @@ input, textarea {
 }
 #footer {
     background-color: #939FB5;
-    min-height: 30px;
-    min-width: 30px;
     border: 1px solid black;
     border-radius: 8px;
     clear: both;
